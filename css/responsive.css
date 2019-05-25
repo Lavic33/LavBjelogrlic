@@ -154,6 +154,7 @@
     }
     body main #projects #presenation .project img{
         width:70% !important;
+        height: auto !important;
     }
     body main .wraper{
         flex-direction: column;
@@ -196,12 +197,27 @@
 @media only screen and (max-width: 628px){
     body header nav ul li a{
         font-size:0.6em;
+        
+    }
+    body header nav ul{
+        padding-bottom: 3%;
     }
 }
-
+@media only screen and (max-width: 515px){
+    body main #kontakt .blueTape .wraper p{
+        font-size: 1.6em;
+    }
+    body main #kontakt .blueTape{
+        min-height: 250px;
+    }
+}
 @media only screen and (max-width: 479px){
    
-    
+    body main #kontakt #forma{
+        width: 100%;
+        border:none;
+        font-size:1.3em;
+    }
     body main #kontakt .blueTape .wraper p{
         font-size: 1.7em ;
         padding: 0.3em;
@@ -282,4 +298,21 @@
         border:none;
     }
     
+}
+@media only screen and (max-width: 405px){
+    body header nav ul li a{
+        font-size: 0.4em;
+    }
+    body header nav ul{
+        padding-bottom: 5%;
+    }
+    body main #kontakt .blueTape .wraper p{
+        font-size: 1.3em;
+    }
+    body footer .blueTape #icons{
+        font-size:2em;
+    }
+    body footer .blueTape h4{
+        font-size:1.3em;
+    }
 }
