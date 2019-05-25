@@ -4,6 +4,9 @@ $plava:#5582BA;
 
 @import url("../css/responsive.css");
 
+html{
+    overflow-x: hidden;
+}
 
 *{
     box-sizing: border-box;
