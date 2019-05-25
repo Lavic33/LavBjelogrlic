@@ -13,8 +13,9 @@ html {
 
 body {
   overflow-x: hidden;
-  background-color: #FCFEFD;
-  color: #323232; }
+  background-color: #000;
+  color: #323232;
+  overflow: hidden; }
 
 header {
   width: 100%;
