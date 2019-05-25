@@ -1,6 +1,6 @@
 @import url("../css/responsive.css");
 html {
-  overflow: none; }
+  overflow: none !important; }
 
 * {
   box-sizing: border-box;
