@@ -5,12 +5,13 @@
         <meta charset="utf-8"/>
 		<meta name="description" content="Portfolio of Lav Bjelogrlić-Nikolov,student of ICT College of Applied Studies-information technologies"/>
 		<meta name="keywords" content="HTML,CSS,Lav,portfolio,web,Bjelogrlic,frontend"/>
-		<meta name="author" content="Lav Bjelogrlić-Nikolov"/>
+        <meta name="author" content="Lav Bjelogrlić-Nikolov"/>
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="shortcut icon" href="image/ikonica.ico"/>
     </head>
     <body>
@@ -19,7 +20,7 @@
         <header>
             
             <div id="logo">
-                <h1>Lav Bjelogrlic</h1>
+                <a href="https://lavic33.github.io/LavBjelogrlic/"><h1>Lav Bjelogrlic</h1></a>
                 
                 
             </div>
@@ -30,11 +31,11 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="396.091" viewBox="0 0 708.099 396.091"><path d="M343.621-7.871c97.593,0,271.753-31.984,334.369-7.875,59.132,22.767,9.424,100.663,9.424,134.706,0,70.047-96.974,310-224.974,239.6-224-152-333.293-58.67-389.127-73.146C-15.231,262.456-.171,161.9-.171,118.96c0-33.832,14.863-74.351,73.483-97.13C135.857-2.473,245.457-7.871,343.621-7.871Z" transform="translate(1.142 24.741)" fill="#5582ba" opacity="0.76"/></svg>
                         </object>
                         <i class="fas fa-bars meni"></i>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
+                    <li><a href="https://lavic33.github.io/LavBjelogrlic/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#kontakt">Contact</a></li>
                 </ul>
             </nav>
            
@@ -50,59 +51,65 @@
                     </div>
                 </div>
              
-            
-                <div class="heading">
-                    <h2>About me </h2>
-                    
-                </div>
-                <div class="wraper">
-                    <div id="tekst">
-                        <div class="podatak">
-                            
-                                <h3 class="text"> <i class="fas fa-user"></i> Lav Bjelogrlic</h3>
-                        </div>
-                        <div class="podatak">
-                            
-                                <h3 class="text"><i class="fas fa-graduation-cap"></i> Visoka ICT Skola</h3>
-                            </div>
-                        <div class="podatak">
+                <div id="about" data-aos="fade-left">
+                    <div class="heading" >
+                        <h2>About me </h2>
+                        
+                    </div>
+                    <div class="wraper">
+                        <div id="tekst">
+                            <div class="podatak">
                                 
-                                <h3 class="text"><i class="fas fa-code"></i> Full stack Developer</h3>
+                                    <h3 class="text"> <i class="fas fa-user"></i> Lav Bjelogrlic</h3>
                             </div>
-                    
-                    
-                    </div>  
-                         <div id="slika">
-                        <figcaption>
-                            <img src="image/ja.jpeg" alt="slika mene"/>
-                        </figcaption>
-                         </div> 
-                </div>
-                <div id="skill">
+                            <div class="podatak">
+                                
+                                    <h3 class="text"><i class="fas fa-graduation-cap"></i> Visoka ICT Skola</h3>
+                                </div>
+                            <div class="podatak">
+                                    
+                                    <h3 class="text"><i class="fas fa-id-card-alt"></i> Full stack Developer</h3>
+                                </div>
+                                <div class="podatak">
+                                    
+                                        <h3 class="text"><i class="fas fa-code"></i>HTML5,CSS3,Bootstrap</h3>
+                                    </div>
+                        
+                        
+                        </div>  
+                            <div id="slika">
+                            <figcaption>
+                                <img src="image/ja.jpeg" alt="slika mene"/>
+                            </figcaption>
+                            </div> 
+                    </div>
+            </div>
+                <div id="skill" data-aos="fade-right">
                     <div class="heading">
                         <h2>Skills</h2>
                     </div>
                     <div id="container">
                            
                         <div class="box">
-                            <h3><i class="fab fa-html5 ikonica"></i> Prvi Naslov</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est blanditiis aspernatur rerum pariatur porro ipsum quisquam placeat laboriosam voluptatem facere ullam sit, aperiam temporibus illum quae doloribus, repellat numquam fuga. </p>
+                            <h3><i class="fab fa-html5 ikonica"></i> HTML 5</h3>
+                            <p>I have a good knowledge of semantic HTML 5,knowing to make a basic structure for websites and using all important tags for SEO.
+                                Also following the trends and upgrade my skill in HTML. </p>
                         </div>
                         <div class="box">
-                            <h3><i class="fab fa-css3-alt ikonica"></i> Prvi Naslov</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione aut quisquam debitis excepturi dolores cupiditate placeat laborum consequuntur error. Aliquam, explicabo ad. Inventore maiores magnam voluptas</p>
+                            <h3><i class="fab fa-css3-alt ikonica"></i> CSS3/SAAS</h3>
+                            <p>Good knowledge of CSS3 using it with SAAS to make it easier and better.Knowing when to use which CSS property best way and make website cleaner. </p>
                         </div>
                         <div class="box">
-                            <h3><i class="fab fa-bootstrap ikonica"></i> Prvi Naslov</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis neque, in nemo quia voluptate doloremque quod similique aspernatur vitae earum nisi consectetur voluptates nulla dignissimos </p>
+                            <h3><i class="fab fa-bootstrap ikonica"></i> Bootstrap</h3>
+                            <p>All the important base stuff for Bootstrap.Knowing how their grid system works and which templates to use to make coding easier while editing bootstrap classes for best result. </p>
                         </div>
                         <div class="box">
-                            <h3><i class="fab fa-js-square ikonica"></i> Prvi Naslov</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae in harum nobis deleniti ratione doloribus optio ad, beatae officia sapiente autem expedita rem corporis, a repellendus dolor tenetur </p>
+                            <h3><i class="fas fa-mobile ikonica"></i> Responsive </h3>
+                            <p>Mobile first aproach to make my websites look good on Computers,Laptops,Tablets and Phones of various resolutions and make user experience same on all devices. </p>
                         </div>
                     </div>
                 </div>
-                <div id="projects">
+                <div id="projects" data-aos="fade-left">
                         <div class="heading">
                         
                                 <h2>My projects </h2>
@@ -118,51 +125,58 @@
                                 
                             </div>
                             <div class="year">
-                                <p>December 2018</p>
+                                <p>November 2018</p>
                                 <i class="fas fa-circle"></i>
                             </div>
                             <div class="year">
-                                    <p>December 2018</p>
+                                    <p>January 2019</p>
                                     <i class="fas fa-circle"></i>
                             </div>
                             <div class="year">
-                                    <p>December 2018</p>
+                                    <p>April 2019</p>
                                     <i class="fas fa-circle"></i>
                                 </div>
                         </div>
                     </div>
                     <div id="presenation">
-                        <div class="project">
-                            <h2>My portfolio</h2>
-                            <div class="slika">
-                                <img src="image/skrin.png" alt="prvi portfolio"/>
-                            </div>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae in harum nobis deleniti ratione doloribus optio ad,</p>
-                        </div>
-                        <div class="project">
-                                <h2>My portfolio</h2>
-                                <div class="slika">
-                                    <img src="image/skrin.png" alt="prvi portfolio"/>
-                                </div>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae in harum nobis deleniti ratione doloribus optio ad,</p>
-                        </div>
-                        <div class="project">
-                                <h2>My portfolio</h2>
-                                <div class="slika">
-                                    <img src="image/skrin.png" alt="prvi portfolio"/>
-                                </div>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae in harum nobis deleniti ratione doloribus optio ad,</p>
-                            </div>
+                        
                             <div class="project">
-                                    <h2>My portfolio</h2>
+                                    <a href="#"><h2>2nd portfolio</h2>
                                     <div class="slika">
-                                        <img src="image/skrin.png" alt="prvi portfolio"/>
+                                        <img src="image/ss_lavcode.png" alt="druga verzija portfolia"/>
                                     </div>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae in harum nobis deleniti ratione doloribus optio ad,</p>
+                                </a>
+                                    <p>Second version of my first portfolio,made also for first HTML and CSS course.Not Responsive.</p>
+                                </div>
+                        <div class="project">
+                                <a href="#"><h2>1st Portfolio</h2>
+                            <div class="slika">
+                                <img src="image/ss_firstportfolio.png" alt="prvi portfolio"/>
+                            </div>
+                            </a>
+                            <p>This is my first portfolio made for my first HTML and CSS course.It is not Responsive.</p>
+                        </div>
+                       
+                        <div class="project">
+                                <a href="#"><h2>Gde da jedem?</h2>
+                                <div class="slika">
+                                    <img src="image/ss_gdeda.png" alt="Gde da jedem"/>
+                                </div>
+                                 </a>
+                                <p>Website for food presentation made in HTML and CSS.It is Responsive.</p>
+                        </div>
+                        
+                            <div class="project">
+                                    <a href="#"> <h2>3rd portfolio</h2>
+                                    <div class="slika">
+                                        <img src="image/lav.png" alt="prvi portfolio"/>
+                                    </div>
+                                </a>
+                                    <p>My current portfolio,made in HTML and SAAS.Made for my second course in Responsive desing.Responsive</p>
                                 </div>
                     </div>
                 </div> 
-                <div id="kontakt">
+                <div id="kontakt" data-aos="fade-right">
                     <div class="blueTape">
                         <div class="heading">
                         
@@ -232,5 +246,9 @@
             </div>
         </footer>
         
+
+        <script>
+            AOS.init();
+          </script>
     </body>
 </html>
