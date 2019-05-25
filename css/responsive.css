@@ -2,7 +2,10 @@
 
 
 @media only screen and (max-width: 1400px){
-
+    html{
+        overflow: none;
+      
+    }
     #logo h1{
         font-size: 1.6em;
     }
@@ -27,13 +30,13 @@
     }
 }
 @media only screen and (max-width: 1137px){
-
+    body main #projects #timeline{
+        display: none;
+    }
     body header nav ul  li a{
         font-size: 1em ;
     }
-    body main #projects #years{
-        top:-7em;
-    }
+    
     #logo h1{
         font-size:1.4em;
     }
@@ -67,6 +70,11 @@
 }
 /*tableti*/
 @media only screen and (max-width: 996px){
+    body main #projects #presenation .project img{
+        width:70% !important;
+        height: auto !important;
+    }   
+
     body header{
         flex-wrap: wrap;
         text-align: center;
@@ -111,9 +119,7 @@
         max-width: 80%;
         
     }
-    body main #projects #timeline{
-        display: none;
-    }
+   
     #presenation{
         flex-wrap: wrap;
     }
@@ -143,6 +149,7 @@
 }
 
 @media only screen and (max-width: 700px){
+    
     body main #container .box{
         width: 100%;
         
@@ -152,10 +159,7 @@
     body main #projects #presenation .project{
         width:100%;
     }
-    body main #projects #presenation .project img{
-        width:70% !important;
-        height: auto !important;
-    }
+    
     body main .wraper{
         flex-direction: column;
         justify-content: center;
