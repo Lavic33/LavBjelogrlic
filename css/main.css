@@ -1,6 +1,7 @@
 @import url("../css/responsive.css");
 html {
-  overflow-x: hidden; }
+  overflow: none;
+  overflow-x: auto; }
 
 * {
   box-sizing: border-box;
