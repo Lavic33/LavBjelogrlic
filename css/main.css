@@ -1,0 +1,271 @@
+@import url("../css/responsive.css");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif; }
+  * a {
+    text-decoration: none; }
+
+body {
+  overflow-x: hidden;
+  background-color: #FCFEFD; }
+
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+  header #logo {
+    width: 30%;
+    padding: 2%;
+    color: #fff;
+    font-size: 1.7em; }
+    header #logo h1 {
+      background-image: url(../image/tekst2.jpeg);
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    header #logo #resplogo {
+      display: none; }
+  header nav {
+    width: 36%;
+    height: 250px;
+    display: flex;
+    justify-content: center; }
+    header nav object {
+      width: 100%; }
+      header nav object svg {
+        width: 100%; }
+    header nav .buble_blue {
+      z-index: -1;
+      width: 40%;
+      position: absolute;
+      top: -8em;
+      right: -3em; }
+    header nav ul {
+      list-style-type: none;
+      padding-top: 10%;
+      margin-left: 8%;
+      display: flex;
+      flex-wrap: nowrap; }
+      header nav ul .meni {
+        display: none;
+        font-size: 3em;
+        color: #EED887; }
+      header nav ul li {
+        padding: 1%; }
+        header nav ul li a {
+          font-size: 1.3em;
+          color: #fff;
+          margin-right: 1em; }
+
+main {
+  width: 100%; }
+  main .naslov {
+    text-align: center;
+    padding-bottom: 20%;
+    background: url("../image/paint.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 45%;
+    background-size: cover;
+    border-top: 1px solid #fefefe;
+    border-bottom: 2px solid #c2c2c2; }
+    main .naslov .heading {
+      font-size: 2em;
+      font-family: 'Montserrat', sans-serif; }
+    main .naslov .holder {
+      width: 28%;
+      margin: 2% auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1em; }
+      main .naslov .holder .button {
+        border: 2px solid #5582BA;
+        padding: 3%;
+        border-radius: 20px; }
+        main .naslov .holder .button:nth-child(2) {
+          border: none;
+          background-color: #5582BA;
+          color: white; }
+  main #skill {
+    border-top: 2px solid #c2c2c2; }
+  main .wraper {
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around; }
+    main .wraper #tekst {
+      width: 55%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      main .wraper #tekst i:first-of-type {
+        color: #5582BA; }
+      main .wraper #tekst .podatak {
+        font-size: 2.3em;
+        padding: 1em; }
+        main .wraper #tekst .podatak i {
+          padding-right: 0.6em; }
+    main .wraper #slika {
+      width: 35%; }
+      main .wraper #slika img {
+        border-radius: 5%; }
+  main .heading {
+    font-size: 2em;
+    width: 100%;
+    padding: 3% 0 2% 0;
+    text-align: center; }
+    main .heading h1 {
+      font-size: 3em; }
+    main .heading h2 {
+      text-transform: uppercase;
+      letter-spacing: 0.15em; }
+    main .heading i {
+      color: #EED887;
+      padding: 1%; }
+  main #container {
+    border-bottom: 2px solid #c2c2c2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 2em;
+    background-image: url("../image/paint.svg");
+    background-repeat: no-repeat;
+    background-position: center; }
+    main #container .box {
+      width: 32%;
+      padding: 3%;
+      margin: 2%; }
+      main #container .box p {
+        text-align: center;
+        font-size: 0.6em;
+        padding: 4%; }
+      main #container .box h3 i {
+        padding: 2%;
+        font-size: 1.4em; }
+      main #container .box h3 i:first-of-type {
+        color: #5582BA; }
+  main #projects {
+    width: 100%; }
+    main #projects #timeline {
+      margin: 2% 0%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
+      main #projects #timeline hr {
+        width: 90%;
+        height: 1em;
+        border: 2px solid #5582BA;
+        background: #5582BA; }
+    main #projects .strela {
+      font-size: 100px;
+      color: #5582BA;
+      margin-left: -1%; }
+    main #projects #years {
+      width: 80%;
+      position: relative;
+      top: -5.9em;
+      display: flex;
+      justify-content: space-between; }
+      main #projects #years .year {
+        width: 14%; }
+        main #projects #years .year i {
+          text-align: center;
+          font-size: 3em;
+          color: #5582BA;
+          margin-left: 20%; }
+    main #projects #presenation {
+      width: 88%;
+      margin: 0px auto;
+      display: flex;
+      justify-content: space-between; }
+      main #projects #presenation .project {
+        width: 20%;
+        text-align: center; }
+        main #projects #presenation .project h2 {
+          padding: 5%; }
+        main #projects #presenation .project .slika {
+          width: 100%; }
+          main #projects #presenation .project .slika img {
+            width: 100%;
+            border-radius: 5%; }
+  main #kontakt {
+    width: 100%;
+    margin-top: 2%; }
+    main #kontakt .heading {
+      padding: 1% 0 2% 0; }
+    main #kontakt .blueTape {
+      width: 100%;
+      height: 270px;
+      background-color: #5582BA; }
+      main #kontakt .blueTape h2 {
+        width: 100%;
+        color: #fff;
+        padding: 2% 0%; }
+      main #kontakt .blueTape .wraper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%; }
+        main #kontakt .blueTape .wraper p {
+          font-size: 2em;
+          color: #EBE2FF;
+          font-weight: bold; }
+    main #kontakt #forma {
+      width: 98%;
+      display: flex;
+      justify-content: center;
+      font-size: 1.5em; }
+      main #kontakt #forma form {
+        border-left: 2px solid #5582BA;
+        border-right: 2px solid #5582BA;
+        padding: 2% 9%;
+        color: #5582BA; }
+        main #kontakt #forma form tr td {
+          padding: 5% 5%; }
+          main #kontakt #forma form tr td input, main #kontakt #forma form tr td textarea {
+            font-size: 0.74em;
+            color: #5582BA;
+            background-color: #ececec;
+            border-radius: 5px;
+            padding: 5%;
+            border: 1px solid #5582BA; }
+          main #kontakt #forma form tr td textarea::placeholder {
+            color: #5582BA; }
+          main #kontakt #forma form tr td input::placeholder {
+            color: #5582BA; }
+          main #kontakt #forma form tr td input[type="button"] {
+            width: 45%;
+            float: right;
+            padding: 7% 10%;
+            text-align: center;
+            background-color: #fff;
+            border: 2px solid #5582BA;
+            color: #5582BA;
+            text-transform: uppercase;
+            font-size: 0.75em; }
+
+footer .blueTape {
+  width: 100%;
+  height: 180px;
+  background-color: #5582BA; }
+  footer .blueTape h4 {
+    text-align: center;
+    padding: 1em 0em;
+    font-size: 1.5em;
+    color: #EBE2FF; }
+  footer .blueTape #icons {
+    font-size: 2.4em;
+    text-align: center; }
+    footer .blueTape #icons i {
+      padding: 0.5em 0.7em;
+      color: #EBE2FF; }
+
+/*# sourceMappingURL=main.css.map */

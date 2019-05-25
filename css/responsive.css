@@ -1,0 +1,285 @@
+
+
+
+@media only screen and (max-width: 1400px){
+
+    #logo h1{
+        font-size: 1.6em;
+    }
+
+}
+@media only screen and (max-width: 1333px){
+
+    body header nav ul  li a{
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 1266px){
+
+    body header nav ul  li a{
+        font-size: 1.05em ;
+    }
+}
+@media only screen and (max-width: 1163px){
+
+    h3.text{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 1137px){
+
+    body header nav ul  li a{
+        font-size: 1em ;
+    }
+    body main #projects #years{
+        top:-7em;
+    }
+    #logo h1{
+        font-size:1.4em;
+    }
+    nav{
+        min-width: 40%;
+        
+    }
+}
+@media only screen and (max-width: 1110px){
+
+    body header nav ul  li a{
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 1031px){
+
+   body header nav ul li a{
+        font-size: 0.8em;
+    }
+    
+    #logo h1{
+        font-size:1.4em;
+    }
+    .box h3{
+        font-size: 1em;
+    }
+    body main #container .box{
+        max-width: 50%;
+    }
+}
+/*tableti*/
+@media only screen and (max-width: 996px){
+    body header{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    body header #logo{
+        width: 100%;
+        
+    }
+    body header #logo h1{
+        font-size: 2em;
+    }
+    body header nav .buble_blue{
+        display: none;
+    }
+    body header nav ul{
+       padding: 2%;
+       margin-left: 0;
+        border-right: 3px solid #fff;
+        border-left: 3px solid #fff;
+        font-size: 1.9em;
+    }
+    body header nav{
+        margin: 0 auto;
+        background: #5582BA;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    body main .wraper #slika{
+        width: 30%;
+    }
+    main{
+        margin-top:4%;
+    }
+  
+    .slika{
+        min-width: 80%;
+    }
+    .slika img{
+        max-width: 80%;
+        
+    }
+    body main #projects #timeline{
+        display: none;
+    }
+    #presenation{
+        flex-wrap: wrap;
+    }
+    .project{
+        min-width: 45%;
+    }
+    main #kontakt .blueTape .wraper{
+        flex-direction: column;
+        font-size: 1.1em;
+    }
+    .wraper p{
+        padding-bottom: 0.4em;
+    }
+    body main #kontakt .blueTape{
+        min-height: 300px;
+    }
+    body main .wraper #tekst{
+        width: 45%;
+        font-size: 0.82em;
+    }
+    .box{
+        min-width: 44% ;
+    }
+    .box h3{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    body main #container .box{
+        width: 100%;
+        
+        
+
+    }
+    body main #projects #presenation .project{
+        width:100%;
+    }
+    body main #projects #presenation .project img{
+        width:70% !important;
+    }
+    body main .wraper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    body main .wraper #slika{
+        order:1;
+        width:50%;
+        margin: 0 auto;
+        
+        
+    }
+    
+    body main .wraper #tekst{
+        order:2;
+        width:82%;
+        text-align: center;
+        
+    }
+    body main .heading h2{
+        font-size:1.5em;
+        text-align: center;
+    }
+    .project{
+        min-width:100% ;
+        border-bottom: 2px solid #5582BA;
+        padding-bottom: 3em;
+        
+    }
+    body main .heading{
+        width: 100%;
+    }
+   
+    .project:nth-child(4){
+        border:none;
+    }
+    
+}
+@media only screen and (max-width: 628px){
+    body header nav ul li a{
+        font-size:0.6em;
+    }
+}
+
+@media only screen and (max-width: 479px){
+   
+    
+    body main #kontakt .blueTape .wraper p{
+        font-size: 1.7em ;
+        padding: 0.3em;
+    }
+    .heading{
+        font-size: 1.6em !important;
+    }
+    .box{
+        min-width: 100%;
+        
+    }
+    .box h3{
+        font-size: 0.9em;
+        text-align: center;
+    }
+    body main #container .box{
+        width: 100%;
+    }
+    .splash{
+        display: none;
+    }
+   
+    body main .naslov .holder{
+        width:100% ;
+        padding: 1em 0em;
+        justify-content: center ;
+        
+    }
+    body header nav ul li a{
+        font-size:0.5em;
+    }
+    body main #kontakt .blueTape .wraper p{
+        font-size: 1.5em;
+    }
+    body header #logo h1{
+        font-size:1.6em;
+    }
+    .buble_blue{
+        left: 18em;
+    }
+    
+    #tekst{
+        min-width:100%;
+        order: 2;
+        
+    }
+    #slika{
+        
+        min-width: 70%;
+        order:1 ;
+        margin: 0 auto;
+        
+    }
+    #slika img{
+        width: 100%;
+        
+    }
+    figcaption{
+        width: 100%;
+    }
+    body main .wraper #tekst .podatak{
+        width:99%;
+        font-size:1.9em;
+    }
+    body main #projects #timeline{
+        display: none;
+    }
+    #presenation{
+        min-width: 100%;
+        flex-wrap: wrap;
+    }
+  
+    .project img{
+        max-width: 80% ;
+    }
+    
+    body main #container .box{
+        border:none;
+    }
+    
+}
