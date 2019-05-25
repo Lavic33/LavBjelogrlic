@@ -5,10 +5,14 @@ $tcrna:#323232;
 @import url("../css/responsive.css");
 
 html{
-    overflow: none;
-  
+    
+    // overflow-x: hidden;
 }
-
+#okvir{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -21,7 +25,7 @@ html{
     }
 }
 body{
-    overflow-x: hidden;
+    // overflow-x: hidden;
     
     color:$tcrna;
     
