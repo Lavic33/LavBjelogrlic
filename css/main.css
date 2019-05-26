@@ -81,20 +81,22 @@ main {
       padding: 1%;
       font-family: 'Montserrat', sans-serif; }
     main .naslov .holder {
-      width: 28%;
-      margin: 2% auto;
+      width: 100%;
+      margin-top: 1.5em;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       font-size: 1em; }
       main .naslov .holder .button {
+        width: 9%;
         border: 2px solid #5582BA;
-        padding: 3%;
+        padding: 1% 0%;
         border-radius: 20px; }
         main .naslov .holder .button:nth-child(2) {
           border: none;
           background-color: #5582BA;
-          color: white; }
+          color: white;
+          margin-left: 5em; }
   main #skill {
     border-top: 2px solid #c2c2c2; }
   main .wraper {
@@ -103,7 +105,7 @@ main {
     margin: 0 auto;
     justify-content: space-around; }
     main .wraper #tekst {
-      width: 55%;
+      width: 60%;
       display: flex;
       justify-content: center;
       flex-direction: column; }
@@ -117,7 +119,8 @@ main {
     main .wraper #slika {
       width: 35%; }
       main .wraper #slika img {
-        border-radius: 5%; }
+        border-radius: 5%;
+        width: 100%; }
   main .heading {
     font-size: 2em;
     width: 100%;

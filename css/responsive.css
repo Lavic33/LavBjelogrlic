@@ -50,6 +50,9 @@
     body header nav ul  li a{
         font-size: 0.9em;
     }
+    body main .naslov .holder .button{
+        width:12%;
+    }
 }
 
 @media only screen and (max-width: 1031px){
@@ -74,7 +77,9 @@
         width:70% !important;
         height: auto !important;
     }   
-
+    body main .naslov .holder .button {
+        width:15%;
+    }
     body header{
         flex-wrap: wrap;
         text-align: center;
@@ -126,6 +131,9 @@
     .project{
         min-width: 45%;
     }
+    body header nav ul li a.last{
+        margin-right: 0em;
+    }
     main #kontakt .blueTape .wraper{
         flex-direction: column;
         font-size: 1.1em;
@@ -137,7 +145,7 @@
         min-height: 300px;
     }
     body main .wraper #tekst{
-        width: 45%;
+        
         font-size: 0.82em;
     }
     .box{
@@ -147,14 +155,38 @@
         text-align: center;
     }
 }
+@media only screen and (max-width: 839px){
+    body main .wraper #tekst .podatak{
+        font-size:1.5em;
+        text-align: start;
+    }
+}
+body main .wraper #tekst{
+    margin-left:6.5em;
+}
 
+@media only screen and (max-width: 720px){
+    body main .naslov .holder .button {
+        width:20%;
+    }
+}
 @media only screen and (max-width: 700px){
     
+    body main #kontakt #forma form{
+        border:none;
+    }
     body main #container .box{
         width: 100%;
         
         
 
+    }
+    body main .wraper #tekst .podatak{
+        font-size:1.9em;
+    }
+    body main .naslov .holder .button{
+        margin-right: 5%;
+        
     }
     body main #projects #presenation .project{
         width:100%;
@@ -208,6 +240,25 @@
     }
 }
 @media only screen and (max-width: 515px){
+    body main .naslov .holder .button {
+        width:60%;
+        margin-bottom: 1em;
+        
+    }
+    body main .naslov .holder {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 1.2em;
+        
+    }
+    body main .naslov .heading.wlc{
+        font-size:1em !important;
+    }
+    body main .naslov .holder .button:nth-child(2){
+        margin-left: 0;
+    }
     body main #kontakt .blueTape .wraper p{
         font-size: 1.6em;
     }
@@ -216,7 +267,9 @@
     }
 }
 @media only screen and (max-width: 479px){
-   
+    body main .wraper #tekst .podatak{
+        font-size:1.2em;
+    }
     body main #kontakt #forma{
         width: 100%;
         border:none;
@@ -301,11 +354,24 @@
     body main #container .box{
         border:none;
     }
+    body main #kontakt #forma form tr td input[type="button"]{
+        width:155%;
+    }
     
+    
+}
+@media only screen and (max-width: 430px){
+    body footer .blueTape #icons{
+        font-size:2em;
+}
 }
 @media only screen and (max-width: 405px){
     body header nav ul li a{
         font-size: 0.4em;
+    }
+    body main .wraper #tekst .podatak{
+        font-size:1.4em;
+        
     }
     body header nav ul{
         padding-bottom: 5%;
@@ -313,10 +379,55 @@
     body main #kontakt .blueTape .wraper p{
         font-size: 1.3em;
     }
-    body footer .blueTape #icons{
-        font-size:2em;
-    }
+    
     body footer .blueTape h4{
         font-size:1.3em;
+    }
+    body main #kontakt #forma{
+        font-size:1em;
+    }
+}
+@media only screen and (max-width: 376px){
+    body main .wraper #tekst .podatak{
+        font-size: 1.5em;
+        width:100%;
+    }
+    footer .blueTape h4{
+        font-size:1.3em;
+    }
+}
+@media only screen and (max-width: 355px){
+    body main #kontakt .blueTape .wraper p{
+        font-size:1.2em;
+    }
+    body footer .blueTape #icons{
+        font-size:1.8em;
+    }
+    body main .heading h2{
+        font-size:1.3em;
+    }
+    body main .heading h2{
+        font-size:1.3em;
+    }
+    body main #kontakt #forma{
+        font-size:0.9em;
+    }
+    body main .wraper #tekst{
+        margin-left:2em;
+    }
+    
+}
+@media only screen and (max-width: 324px){
+    body main #kontakt .blueTape .wraper p{
+        font-size:1.1em;
+    }
+    body footer .blueTape #icons{
+        font-size:1.6em;
+    }
+    body footer .blueTape h4{
+        font-size: 1.2em;
+    }
+    body header #logo h1{
+        font-size: 1.4em;
     }
 }

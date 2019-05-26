@@ -4,10 +4,7 @@ $plava:#5582BA;
 $tcrna:#323232;
 @import url("../css/responsive.css");
 
-html{
-    
-    // overflow-x: hidden;
-}
+
 #okvir{
     position: relative;
     overflow: hidden;
@@ -96,7 +93,7 @@ header{
                 
             }
             li{
-                
+               
                 
                 
                 a{
@@ -104,8 +101,10 @@ header{
                     color: #fff;
                     margin-right: 1em;
                     
-                    
+                   
                 }
+               
+                
             }
         }
     }
@@ -136,20 +135,22 @@ main{
 
         }
         .holder{
-            width: 28%;
-            margin: 2% auto;
+            width: 100%;
+            margin-top:1.5em;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items:center;
             font-size: 1em;
             .button{
+                width:9%;
                 border:2px solid #5582BA;
-                padding: 3%;
+                padding: 1% 0%;
                 border-radius: 20px;
                 &:nth-child(2){
                     border:none;
                     background-color:$plava;
                     color: white;
+                    margin-left: 5em;
                 }
             }
         }
@@ -162,12 +163,14 @@ main{
         width: 85%;
         display: flex;
         margin:0 auto;
+        
         justify-content: space-around;
         #tekst{
-            width: 55%;
+            width: 60%;
             display: flex;
             justify-content: center;
             flex-direction: column;
+            
             i:first-of-type{
                 color: $plava;
             }
@@ -184,8 +187,10 @@ main{
         }
         #slika{
             width: 35%;
+           
             img{
                 border-radius: 5%;
+                width:100%;
             }
            
         }
@@ -353,9 +358,7 @@ main{
                         
                         color: #EBE2FF;
                         font-weight: bold;
-                        i{
-                            
-                        }
+                       
                         
                     }
                 }
