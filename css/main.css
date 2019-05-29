@@ -1,4 +1,4 @@
-@import url("../css/responsive.css");
+@import url("../css/responsive.min.css");
 #okvir {
   position: relative;
   overflow: hidden;
@@ -58,8 +58,7 @@ header {
       flex-wrap: nowrap; }
       header nav ul .meni {
         display: none;
-        font-size: 3em;
-        color: #EED887; }
+        font-size: 3em; }
       header nav ul li a {
         font-size: 1.3em;
         color: #fff;

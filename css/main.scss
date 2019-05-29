@@ -1,8 +1,7 @@
-$zuta:#EED887;
-$zelena:#71E0BB;
+
 $plava:#5582BA;
 $tcrna:#323232;
-@import url("../css/responsive.css");
+@import url("../css/responsive.min.css");
 
 
 #okvir{
@@ -89,7 +88,7 @@ header{
             .meni{
                 display: none;
                 font-size: 3em;
-                color:$zuta;
+                
                 
             }
             li{

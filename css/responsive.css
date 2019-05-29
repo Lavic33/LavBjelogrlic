@@ -240,9 +240,11 @@ body main .wraper #tekst{
     }
 }
 @media only screen and (max-width: 515px){
+    
     body main .naslov .holder .button {
         width:60%;
         margin-bottom: 1em;
+        margin-right: 0;
         
     }
     body main .naslov .holder {
@@ -386,6 +388,9 @@ body main .wraper #tekst{
     body main #kontakt #forma{
         font-size:1em;
     }
+    body footer .blueTape{
+        height: 130px;
+    }
 }
 @media only screen and (max-width: 376px){
     body main .wraper #tekst .podatak{
@@ -430,4 +435,5 @@ body main .wraper #tekst{
     body header #logo h1{
         font-size: 1.4em;
     }
+    
 }
