@@ -21,7 +21,9 @@ $tcrna:#323232;
     }
 }
 body{
-    
+    textarea {
+        resize: none;
+      }
     
     color:$tcrna;
     
